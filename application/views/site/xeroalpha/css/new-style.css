@@ -1,0 +1,325 @@
+/*start new Style*/
+.form-control{
+    line-height: 2.3 !important;
+}
+.content .form-group label {
+    color: #68129c;
+}
+.forgot-pass{
+    text-align: left;
+    margin: 10px 0 10px 5px;
+}
+.forgot-pass a{
+    font-size: 14px;
+    color: #68129c;
+    text-decoration: none;
+}
+.new-btn{
+    background: #26063a;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+
+}
+.new-btn:hover{
+    position: relative;
+    top: -3px;
+    box-shadow: -6px 14px 12px 2px rgba(90, 90, 90, .12);
+    background: #3a0958;
+    border-radius: 8px;
+    color: #fff;
+}
+.mycontent-left {
+    height: 100%;
+    border-right: 2px solid #3a0958;
+}
+.btn-social, .btn-social-icon, .btn-social:hover, .btn-social-icon:hover {
+    display: inline;
+    margin: 15px 3px;
+    padding: 8px 15px;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+.btn-facebook {
+    background: #263961;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #263961;
+    border-radius: 8px;
+}
+.btn-facebook:link, .btn-facebook:visited {
+    color: #fff;
+}
+.btn-facebook:active, .btn-facebook:hover {
+    background: #3B5998;
+    color: #fff;
+}
+.btn-youtube {
+    background: #dd4b39;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dd4b39;
+    border-radius: 8px;
+}
+.btn-youtube:link, .btn-youtube:visited {
+    color: #fff;
+}
+.btn-youtube:active, .btn-youtube:hover {
+    background: #ea5a48;
+    color: #fff;
+}
+.btn-facebook:before {content: "\eab6";}
+.btn-youtube:before {content: "\eb04";}
+.signup{
+    font-size: 14px;
+    color: #68129c;
+    margin: 30px 0;
+    text-align: center;
+}
+.logo-gaxa{
+    width: 108px;
+    height: 108px;
+    margin-left: 60px;
+    position: relative;
+    line-height: 108px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #e9ebf7;
+    box-shadow: 0px 16px 20px 0px rgb(43 1 68 / 11%);
+}
+.logo-gaxa img{
+    position: absolute;
+    width: 105px;
+    height: 35px;
+    top: 32%;
+}
+.icons-text h6{
+    color: #26063a;
+    font-weight: 900;
+    font-size: 16px;
+    font-style: italic;
+
+}
+.icons-text p{
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: italic;
+
+}
+.mycontent-left img{
+    height: 70px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+@media screen and (max-width: 480px) {
+    .icons-text h6{
+        font-size: 12px;
+    }
+    .icons-text p{
+        font-size: 11px;
+    }
+    .mycontent-left {
+        height: auto;
+        border-right: none;
+    }
+    .mycontent-left img{
+        width: 50px;
+        height: 50px;
+    }
+    .mycontent-parent{
+        padding: 0!important;
+    }
+    .logo-gaxa {
+        width: 60px;
+        height: 60px;
+        margin-left: 0;
+        top: 13px;
+    }
+    .logo-gaxa img{
+        width: 56px;
+        height: 20px;
+        top: 33%;
+    }
+    .xs-mt{
+        margin-top: 0!important;
+    }
+    .btn-social, .btn-social-icon, .btn-social:hover, .btn-social-icon:hover{
+        display: inline-block;
+        width: 30%;
+        height: 37px;
+    }
+    .signup{
+        margin: 0;
+        font-size: 12px;
+    }
+}
+
+/*End new Style */
+
+.btn-social img, .btn-social span{display:none}
+.btn-social:before {display: inline-block;
+    font: normal normal normal 1em/1 'LineIcons';
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.field input.term {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+.pointer{cursor: pointer;}
+body{
+    background: #dde1e7 !important;
+}
+.opa{
+    opacity: 0.1;
+}
+.alert {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+.content{
+    z-index: 99999;
+    margin: auto !important;
+    width: 70%;
+    background: #fff !important;
+    border-radius: 10px !important;
+    padding: 5px 30px 40px 30px !important;
+    box-shadow: -3px -3px 7px #ffffff73,2px 2px 5px rgba(94, 104, 121, 0.288) !important;
+}
+.wrapper{
+    margin-bottom: 90px;
+    position: relative;
+}
+.content .text{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #000;
+}
+.content .field{
+    margin-top: 8px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: #595959;
+    background: #dde1e7;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+}
+
+.field input:focus ~ label{
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -1px -1px 2px #ffffff73;
+}
+
+button:hover{
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    background: #dde1e7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+}
+.field span{
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    color: #595959;
+}
+
+.field label{
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    pointer-events: none;
+    color: #666666;
+    transform: translateY(-50%);
+}
+
+
+.field input:focus ~ label{
+    opacity: 0;
+}
+
+
+
+.forgot-pass:hover a{
+    text-decoration: underline;
+}
+button{
+    margin: 15px 0;
+    width: 100%;
+    height: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    background: #dde1e7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #babecc,
+    -5px -5px 10px #ffffff73;
+}
+
+button:focus{
+    color: #3498db;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff73;
+}
+
+
+
+.signup a{
+    color: #000;
+    text-decoration: none;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}

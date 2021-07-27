@@ -1,0 +1,21 @@
+{
+    "pSearch" : "بحث",
+    "sEmptyTable" : "جدول فارغ",
+    "oPaginate": {
+	    "sFirst" : "الاول",
+    "sInfoFiltered" : "معلومات محدده",
+    "sInfoPostFix" : "معلومات PostFix",
+    "sInfoThousands" : "معلومات بالآلاف",
+	    "sLast" : "الاخير",
+    "sLoadingRecords" : "تحميل السجلات",
+	    "sNext" : "التالى",
+	    "sPrevious" : "السابق"
+	},
+    "sProcessing" : "المعالجة",
+    "sSearchPlaceholder" : "البحث",
+    "oAria": {
+	    "sSortAscending" : "ترتيب تصاعدي",
+	    "sSortDescending" : "تنازلي"
+	},
+    "sZeroRecords" : "سجلات صفر"
+}

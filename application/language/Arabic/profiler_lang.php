@@ -1,0 +1,23 @@
+<?php
+$lang = array(
+    "profiler_benchmarks" => "منشئ_القوائم",
+    "profiler_config" => "تكوين ملف التعريف",
+    "profiler_controller_info" => "معلومات تحكم ملف التعريف",
+    "profiler_database" => "قاعدة بيانات التعريف",
+    "profiler_get_data" => "منشئ ملفات التعريف الحصول على البيانات",
+    "profiler_headers" => "رؤوس ملف التعريف",
+    "profiler_memory_usage" => "استخدام ذاكرة منشئ ملفات التعريف",
+    "profiler_no_db" => "ملف التعريف_db",
+    "profiler_no_get" => "ملف التعريف_الحصول على",
+    "profiler_no_memory" => "الملف الشخصي",
+    "profiler_no_post" => "ملف التعريف",
+    "profiler_no_profiles" => "ملفات التعريف",
+    "profiler_no_queries" => "استعلامات ملف التعريف",
+    "profiler_no_uri" => "ملف التعريف",
+    "profiler_post_data" => "ملف التعريف post_data",
+    "profiler_queries" => "استعلامات ملف التعريف",
+    "profiler_section_hide" => "ملف التعريف_إخفاء",
+    "profiler_section_show" => "عرض_قسم_الملف التعريف",
+    "profiler_session_data" => "بيانات المهنة",
+    "profiler_uri_string" => "الملف الشخصي_وري_السلسلة",
+);
